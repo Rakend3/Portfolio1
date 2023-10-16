@@ -1,0 +1,130 @@
+* {
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    color: rgb(255, 255, 255);
+    border: solid white 3px;
+    padding: 5px;
+    border-radius: 43%;
+    justify-content: space-evenly;
+    position: relative;
+    margin: 50px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+}
+
+nav ul li:hover {
+    background-color: white;
+    color: black;
+    border: black solid 3px;
+
+}
+
+#texts {
+    display: flex;
+}
+
+.overl {
+    position: absolute;
+    top: 400px;
+    left: 550px;
+}
+
+.main {
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: black 5px 6px 8px;
+}
+
+h4 {
+    color: yellow;
+}
+
+h2 {
+    border: 2PX solid white;
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+
+}
+
+.disc {
+    margin-left: 500px;
+    display: flex;
+}
+
+table {
+    position: relative;
+    top: -30px;
+    left: 600px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 40%;
+}
+
+table input {
+    padding: 5px;
+    box-shadow: 1px 3px 10px;
+}
+
+#search button {
+    background-color: blue;
+    width: 150px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.row {
+    width: 340px;
+    text-align: justify;
+    display: flex;
+    position: relative; 
+}
+
+.col {
+    margin-left: 220px;
+    margin-top: 150px;
+
+
+
+}
+
+.col h2 {
+    color: black;
+    font-size: 30px;
+    text-align: left;
+}
+
+.col2 {
+    margin-top: 300px;
+}
+
+.row2 h1 {
+    position: relative;
+    font-size: 80px;
+    top: -1100px;
+    text-align: center;
+
+
+}
